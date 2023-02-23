@@ -1,0 +1,44 @@
+.Sbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5rem;
+}
+.Scontainer{
+    background-color: whitesmoke;
+    height: 80vh;
+    width: 60vh;
+    box-shadow: 0.2rem 0.2rem 0.5rem 0px black;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.Slogo{
+    display: flex;
+    align-items: center;
+}
+.Slogo>img{
+height: 6rem;
+width: 7rem;
+}
+.Slogo{
+    color: black;
+}
+.Sinputs{
+display: flex;
+flex-direction: column;
+gap: 1rem;
+}
+.enter{
+display: flex;    
+gap: 0.3rem;
+}
+.enter>input{
+    outline: none;
+    border: none;
+    border-bottom: 0.01rem solid gray;
+    background-color: transparent;
+}
+.loginBTN{
+    cursor: pointer;
+}

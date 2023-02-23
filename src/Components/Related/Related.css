@@ -1,0 +1,38 @@
+.side-videocard{
+    display: flex;
+    gap: 0.5rem;
+    cursor: pointer;
+}
+.side-views{
+    display: flex;
+    font-size: small;
+    font-weight: 500;
+    gap: 0.4rem;
+}
+.side-info{
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+    color: #93989D;
+    justify-content: center;
+}
+.thumbnail2{
+    border-radius: 0.6rem;
+    height: 6.5rem;
+    width: 11rem;
+}
+.thumbnail2:hover{
+    background: blanchedalmond;
+background-blend-mode:hard-light ;
+
+}
+.side-title{
+    color: white;
+    font-size: 1.02rem;
+    font-weight: 700;
+}
+.side-username{
+    color: #93989D;
+    font-weight: 500;
+    font-size: 0.9rem;
+}

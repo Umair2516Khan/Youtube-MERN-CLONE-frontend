@@ -1,0 +1,12 @@
+.videosection{
+    padding: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+.videocard{
+    margin: 0.45rem;
+}
+.home{
+    display: flex;
+    align-items: center;
+}

@@ -1,0 +1,27 @@
+
+.Navbar{
+    top: 0;
+    position: sticky;
+    height: 10vh;
+    /* border-bottom: 0.01rem solid white; */
+}
+.Bodyy{
+    display: flex;
+    height: 90vh;
+    background-color: black;
+}
+.sidebar{
+flex: 0.5;
+height: 100%;
+overflow: scroll;
+background-color: black;
+}
+.videoSection{
+    overflow: scroll;
+    flex: 3;
+    background-color: black;
+}
+.home{
+    display: flex;
+    flex-direction: column;
+}

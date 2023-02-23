@@ -1,0 +1,52 @@
+.Navbar{
+    display:flex;
+    background-color: black;
+    align-items:center;
+    height: 10vh;
+    position: sticky;
+    top: 0;
+}
+.LogoName{
+    flex: 1;
+    display: flex;
+    color: white;
+    align-items: center;
+}
+.name{
+margin-left: -1.6rem;
+margin-top: -0.2rem;
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size: 1.2rem;
+}
+.logo>img{
+height: 4rem;
+width: 6rem;
+}
+.search{
+    flex: 2;
+}
+.container{
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    border: 1px solid white;
+    border-radius: 25px;
+    width: 70%;
+    height: 2rem;
+}
+.emptyCTR{
+    flex: 0.3;
+}
+.container>input{
+    flex: 10;
+    background-color: black;
+    border-style: none;
+    color: white;
+    border: none;
+    outline: none;
+}
+.sign-in{
+    color: white;
+    flex: 1;
+    cursor: pointer;
+}

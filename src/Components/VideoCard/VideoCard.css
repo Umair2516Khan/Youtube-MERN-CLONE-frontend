@@ -1,0 +1,40 @@
+.thumbnail{
+    /* position: absolute; */
+    /* margin: 10px; */
+    border-radius: 1rem;
+    height: 12rem;
+    width: 20rem;
+}
+.videocard{
+    display: flex;
+    /* position: relative; */
+    flex-direction: column;
+    justify-content: center;
+    /* height: 5rem; */
+    /* width: 5rem; */
+}
+.videoInfo{
+    color: white;
+    display: flex;
+}
+.second{
+    display: flex;
+}
+.third{
+    display: flex;
+    flex-direction: column;
+}
+.fourth{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.userImage{
+    border-radius: 50%;
+    width: 2rem;
+    height: 1.75rem;
+}
+.title{
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}

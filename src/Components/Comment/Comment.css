@@ -1,0 +1,30 @@
+.comment{
+    display: flex;
+    gap: 0.78rem;
+}
+.second{
+    display:flex;
+    flex-direction: column;
+    gap: 0.8rem;
+}
+.userinfo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.78rem;
+}
+.userImage{
+    border-radius: 50%;
+    width: 2.9rem;
+    height: 2.73rem;
+}
+.delete{
+    border-radius: 1rem;
+    background-color: red;
+    padding: 0.3rem 1rem;
+    cursor: pointer;
+    width: fit-content;
+}
+.delete:hover{
+background-color: orangered;
+}
